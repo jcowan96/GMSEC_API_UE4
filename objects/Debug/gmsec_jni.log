@@ -1,0 +1,28 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (.\..\objects\Debug\) contains files shared from another project (gmsecapi.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  gmsecJNI_Status.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_status.cpp(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  gmsecJNI_Message.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_message.cpp(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  gmsecJNI_Log.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_log.cpp(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  gmsecJNI_Jenv.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec_defs.h(23): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  gmsecJNI_Init.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_init.cpp(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  gmsecJNI_Field.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_field.cpp(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  gmsecJNI_ConnectionManager.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_connectionmanager.cpp(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  gmsecJNI_ConnectionFactory.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_connectionfactory.cpp(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  gmsecJNI_Connection.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_connection.cpp(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  gmsecJNI_ConfigFile.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_configfile.cpp(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  gmsecJNI_Config.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_config.cpp(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  gmsecJNI_Callbacks.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec_defs.h(23): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  gmsecJNI_Cache.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_cache.h(15): fatal error C1083: Cannot open include file: 'gmsecJNI.h': No such file or directory
+  Generating Code...

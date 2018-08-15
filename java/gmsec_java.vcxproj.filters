@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Java Files">
+      <UniqueIdentifier>{ecb9e09a-aa9f-43b4-813a-09989584ec6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Files\internal">
+      <UniqueIdentifier>{e864789c-ef37-445d-83a9-ecd0751d65c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Files\jni">
+      <UniqueIdentifier>{43b479bf-f04d-4237-a603-7f38be3680ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Files\base">
+      <UniqueIdentifier>{29d42d24-772e-4026-886e-9b92ac0977bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Files\util">
+      <UniqueIdentifier>{e114f6fd-1d2d-4212-9cfb-8135adf73545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Files\mist">
+      <UniqueIdentifier>{91203bd0-368a-4cb8-83d9-0263dba95bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java4 Files">
+      <UniqueIdentifier>{873f0a02-6f01-44d2-a35e-53aa18d0d86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java4 Files\jni">
+      <UniqueIdentifier>{f53dac8a-a568-4cad-b22f-aedfa8d56262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java4 Files\jni\field">
+      <UniqueIdentifier>{b5e81f60-cfa7-4fed-8341-56fa16431b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java4 Files\jni\mist">
+      <UniqueIdentifier>{680e1745-b30a-4bcb-95a4-8bfa3a1f21b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java4 Files\jni\mist\message">
+      <UniqueIdentifier>{064ac66a-7141-4275-be19-3e646c416ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java4 Files\jni\util">
+      <UniqueIdentifier>{f942e596-aa45-41a6-ab4d-7662ade1ea4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java4 Files\mist">
+      <UniqueIdentifier>{30261b0c-1060-4511-ad92-25380396c4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java4 Files\mist\message">
+      <UniqueIdentifier>{886beac3-3446-4a02-9e5f-fc689a37eb55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java4 Files\field">
+      <UniqueIdentifier>{f80fb68a-cdda-4bb7-8090-09e67c82a78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java4 Files\util">
+      <UniqueIdentifier>{b6e919d8-3d34-40a4-8a6e-a9624329ce74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gov\nasa\gsfc\gmsecapi\Callback.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\Config.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\ConfigFile.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\Connection.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\ConnectionFactory.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\ErrorCallback.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\Field.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_Bin.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_Bool.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_Char.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_Double.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_F32.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_F64.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_Float.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_I16.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_I32.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_I64.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_I8.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_Long.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_Short.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_String.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_U16.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_U32.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_U8.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_ULong.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\GMSEC_UShort.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\gmsecAPI.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\Log.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\Message.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\ReplyCallback.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\Status.java">
+      <Filter>Java Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\internal\CallbackLookup.java">
+      <Filter>Java Files\internal</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\internal\ConnectionImpl.java">
+      <Filter>Java Files\internal</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\internal\Dispatcher.java">
+      <Filter>Java Files\internal</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java">
+      <Filter>Java Files\internal</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\internal\RequestDispatcher.java">
+      <Filter>Java Files\internal</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\internal\StatusException.java">
+      <Filter>Java Files\internal</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\gmsecJNI.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\JNIConnectionFactory.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\JNIField.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\JNILog.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\JNIStatus.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\JNIThreadUtil.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\jni\JNITimeUtil.java">
+      <Filter>Java Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\base\Connection.java">
+      <Filter>Java Files\base</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\base\Message.java">
+      <Filter>Java Files\base</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\util\Log.java">
+      <Filter>Java Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\util\LogEntry.java">
+      <Filter>Java Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\util\LogHandler.java">
+      <Filter>Java Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\util\LogLevelGMSEC.java">
+      <Filter>Java Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\util\TimeUtil.java">
+      <Filter>Java Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\mist\ConnectionManager.java">
+      <Filter>Java Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerCallback.java">
+      <Filter>Java Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerErrorCallback.java">
+      <Filter>Java Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerReplyCallback.java">
+      <Filter>Java Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\Callback.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\Config.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\ConfigFile.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\ConfigFileIterator.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\Connection.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\EventCallback.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\GMSEC_Exception.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\gmsecAPI.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\Message.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\MessageFieldIterator.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\ReplyCallback.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\Status.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\SubscriptionInfo.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\U16.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\U32.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\U64.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\U8.java">
+      <Filter>Java4 Files</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\gmsecJNI.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNICallback.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIConfig.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIConfigEntry.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIConfigFile.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIConfigFileIterator.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIConnection.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIEventCallback.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIMessage.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIMessageEntry.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIMessageFieldIterator.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIReplyCallback.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNIStatus.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNISubscriptionEntry.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\JNISubscriptionInfo.java">
+      <Filter>Java4 Files\jni</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIBinaryField.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIBooleanField.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNICharField.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIF32Field.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIF64Field.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIField.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIFieldConverter.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNII16Field.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNII32Field.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNII64Field.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNII8Field.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIStringField.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIU16Field.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIU32Field.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIU64Field.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\field\JNIU8Field.java">
+      <Filter>Java4 Files\jni\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\ArrayListConverter.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIConnectionManager.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIConnMgrCallback.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIConnMgrEventCallback.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIConnMgrReplyCallback.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIConnMgrSubscriptionInfo.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIDevice.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIDeviceIterator.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIDeviceParam.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIMnemonic.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIMnemonicIterator.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIMnemonicSample.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIProductFile.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIProductFileIterator.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNISchemaIDIterator.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNIServiceParam.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\JNISpecification.java">
+      <Filter>Java4 Files\jni\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\message\JNIDeviceMessage.java">
+      <Filter>Java4 Files\jni\mist\message</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\message\JNIMistMessage.java">
+      <Filter>Java4 Files\jni\mist\message</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\message\JNIMnemonicMessage.java">
+      <Filter>Java4 Files\jni\mist\message</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\mist\message\JNIProductFileMessage.java">
+      <Filter>Java4 Files\jni\mist\message</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\util\JNILog.java">
+      <Filter>Java4 Files\jni\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\util\JNILogHandler.java">
+      <Filter>Java4 Files\jni\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\util\JNITimeSpec.java">
+      <Filter>Java4 Files\jni\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\jni\util\JNITimeUtil.java">
+      <Filter>Java4 Files\jni\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\ConnectionManager.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\ConnectionManagerCallback.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\ConnectionManagerEventCallback.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\ConnectionManagerReplyCallback.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\Device.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\DeviceIterator.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\DeviceParam.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\gmsecMIST.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\Mnemonic.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\MnemonicIterator.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\MnemonicSample.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\ProductFile.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\ProductFileIterator.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\SchemaIDIterator.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\ServiceParam.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\Specification.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\SubscriptionInfo.java">
+      <Filter>Java4 Files\mist</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\message\DeviceMessage.java">
+      <Filter>Java4 Files\mist\message</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\message\MistMessage.java">
+      <Filter>Java4 Files\mist\message</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\message\MnemonicMessage.java">
+      <Filter>Java4 Files\mist\message</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\mist\message\ProductFileMessage.java">
+      <Filter>Java4 Files\mist\message</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\BinaryField.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\BooleanField.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\CharField.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\F32Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\F64Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\I16Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\I32Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\I64Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\I8Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\StringField.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\U16Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\U32Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\U64Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\field\U8Field.java">
+      <Filter>Java4 Files\field</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\util\Log.java">
+      <Filter>Java4 Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\util\LogEntry.java">
+      <Filter>Java4 Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\util\LogHandler.java">
+      <Filter>Java4 Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\util\LogLevelGMSEC.java">
+      <Filter>Java4 Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\util\SystemValidator.java">
+      <Filter>Java4 Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\util\TimeSpec.java">
+      <Filter>Java4 Files\util</Filter>
+    </None>
+    <None Include="gov\nasa\gsfc\gmsec\api\util\TimeUtil.java">
+      <Filter>Java4 Files\util</Filter>
+    </None>
+    <None Include="Makefile.nt" />
+  </ItemGroup>
+</Project>

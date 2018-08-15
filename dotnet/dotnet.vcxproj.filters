@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Unmanaged">
+      <UniqueIdentifier>{8f2a0570-81fa-4a0a-92b1-0cfc369ec93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files 4.x">
+      <UniqueIdentifier>{720d0e80-6733-4f98-b29e-c91bf372ef61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files 4.x\field">
+      <UniqueIdentifier>{bb2dbf43-ddf6-45af-9966-93386d85af98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files 4.x\mist">
+      <UniqueIdentifier>{b0042bb9-2e4b-40a7-849d-1f540534d63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files 4.x\mist\message">
+      <UniqueIdentifier>{b54305ae-2d14-406d-9c5e-e4caacd803e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files 4.x\util">
+      <UniqueIdentifier>{85d4f8e6-9d7c-4f2f-ae46-1fcb729200e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files 4.x">
+      <UniqueIdentifier>{c4edf2ee-136d-4f23-8fcf-d1843436f80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files 4.x\field">
+      <UniqueIdentifier>{7ecdd7a9-cb66-435e-8ab8-a56bce19622a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files 4.x\mist">
+      <UniqueIdentifier>{e5559681-2927-4221-b6e3-64677f1bda1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files 4.x\mist\message">
+      <UniqueIdentifier>{f138340a-14a2-4340-97a6-e72c62e0a348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files 4.x\util">
+      <UniqueIdentifier>{10273016-d37c-45f1-9ebe-d356f3370b66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Callback_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Config_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigFile_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Connection_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConnectionFactory_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ErrorCallback_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Field_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FieldIterator_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GMSECDefs_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GMSECErrors_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Message_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ReplyCallback_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Status_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\Callback_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\Config_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\ConfigFile_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\ConfigFileIterator_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\Connection_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\EventCallback_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\GMSEC_Exception_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\GMSECDefs_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\Message_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\MessageFieldIterator_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\ReplyCallback_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\Status_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\SubscriptionInfo_Net.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\BinaryField_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\BooleanField_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\CharField_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\F32Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\F64Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\FieldConverter_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\I16Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\I32Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\I64Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\I8Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\StringField_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\U16Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\U32Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\U64Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\field\U8Field_Net.cpp">
+      <Filter>Source Files 4.x\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\ConnectionManager_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\ConnectionManagerCallback_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\ConnectionManagerEventCallback_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\ConnectionManagerReplyCallback_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\Device_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\DeviceIterator_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\DeviceMessage_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\DeviceParam_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\Mnemonic_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\MnemonicIterator_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\MnemonicMessage_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\MnemonicSample_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\ProductFile_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\ProductFileIterator_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\ProductFileMessage_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\SchemaIDIterator_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\ServiceParam_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\Specification_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\SubscriptionInfo_Net.cpp">
+      <Filter>Source Files 4.x\mist</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\message\DeviceMessage_Net.cpp">
+      <Filter>Source Files 4.x\mist\message</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\message\MistMessage_Net.cpp">
+      <Filter>Source Files 4.x\mist\message</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\message\MnemonicMessage_Net.cpp">
+      <Filter>Source Files 4.x\mist\message</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\mist\message\ProductFileMessage_Net.cpp">
+      <Filter>Source Files 4.x\mist\message</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\util\Log_Net.cpp">
+      <Filter>Source Files 4.x\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\util\LogEntry_Net.cpp">
+      <Filter>Source Files 4.x\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\util\LogHandler_Net.cpp">
+      <Filter>Source Files 4.x\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\util\TimeSpec_Net.cpp">
+      <Filter>Source Files 4.x\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src4\util\TimeUtil_Net.cpp">
+      <Filter>Source Files 4.x\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Callback_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Config_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConfigFile_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Connection_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConnectionFactory_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ErrorCallback_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Field_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FieldIterator_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GMSEC_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GMSECDefs_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GMSECErrors_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Message_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ReplyCallback_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Status_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\Callback_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\Config_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\ConfigFile_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\ConfigFileIterator_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\Connection_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\Errors_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\EventCallback_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\Fields_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\GMSEC_Exception_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\GMSEC_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\GMSECDefs_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\Message_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\MessageFieldIterator_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\ReplyCallback_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\Status_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\SubscriptionInfo_Net.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\BinaryField_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\BooleanField_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\CharField_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\F32Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\F64Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\FieldConverter_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\I16Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\I32Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\I64Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\I8Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\StringField_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\U16Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\U32Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\U64Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\field\U8Field_Net.h">
+      <Filter>Header Files 4.x\field</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\ConnectionManager_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\ConnectionManagerCallback_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\ConnectionManagerEventCallback_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\ConnectionManagerReplyCallback_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\Device_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\DeviceIterator_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\DeviceMessage_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\DeviceParam_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\MIST_Defs_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\Mnemonic_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\MnemonicIterator_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\MnemonicMessage_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\MnemonicSample_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\ProductFile_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\ProductFileIterator_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\ProductFileMessage_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\SchemaIDIterator_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\ServiceParam_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\Specification_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\SubscriptionInfo_Net.h">
+      <Filter>Header Files 4.x\mist</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\message\DeviceMessage_Net.h">
+      <Filter>Header Files 4.x\mist\message</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\message\MistMessage_Net.h">
+      <Filter>Header Files 4.x\mist\message</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\message\MnemonicMessage_Net.h">
+      <Filter>Header Files 4.x\mist\message</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\mist\message\ProductFileMessage_Net.h">
+      <Filter>Header Files 4.x\mist\message</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\util\Log_Net.h">
+      <Filter>Header Files 4.x\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\util\LogEntry_Net.h">
+      <Filter>Header Files 4.x\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\util\LoggingLevel_Net.h">
+      <Filter>Header Files 4.x\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\util\LogHandler_Net.h">
+      <Filter>Header Files 4.x\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\util\TimeSpec_Net.h">
+      <Filter>Header Files 4.x\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include4\util\TimeUtil_Net.h">
+      <Filter>Header Files 4.x\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,107 @@
+﻿  java version "10.0.1" 2018-04-17
+  Java(TM) SE Runtime Environment 18.3 (build 10.0.1+10)
+  Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.1+10, mixed mode)
+  java\bolt\Server.java:62: error: cannot find symbol
+  			Log.info(source, Version.GMSEC_BOLT_VERSION);
+  			                 ^
+    symbol:   variable Version
+    location: class Server
+  1 error
+  added manifest
+  adding: bolt/(in = 0) (out= 0)(stored 0%)
+  adding: bolt/Client$Cooked.class(in = 1937) (out= 1125)(deflated 41%)
+  adding: bolt/Client$FakeRaw.class(in = 798) (out= 439)(deflated 44%)
+  adding: bolt/Client$Options.class(in = 461) (out= 335)(deflated 27%)
+  adding: bolt/Client$Raw.class(in = 379) (out= 266)(deflated 29%)
+  adding: bolt/Client$RealRaw.class(in = 4611) (out= 2464)(deflated 46%)
+  adding: bolt/Client$Shared.class(in = 419) (out= 289)(deflated 31%)
+  adding: bolt/Client.class(in = 6670) (out= 3332)(deflated 50%)
+  adding: bolt/Distributor.class(in = 314) (out= 190)(deflated 39%)
+  adding: bolt/DoubleProperty.class(in = 1316) (out= 666)(deflated 49%)
+  adding: bolt/FakeDistributor.class(in = 560) (out= 302)(deflated 46%)
+  adding: bolt/FakeProcessor.class(in = 697) (out= 425)(deflated 39%)
+  adding: bolt/FlagProperty.class(in = 1371) (out= 706)(deflated 48%)
+  adding: bolt/Header.class(in = 3086) (out= 1594)(deflated 48%)
+  adding: bolt/IntegerProperty.class(in = 1320) (out= 666)(deflated 49%)
+  adding: bolt/IOManager.class(in = 6701) (out= 3656)(deflated 45%)
+  adding: bolt/Log$LogFormatter.class(in = 2128) (out= 1094)(deflated 48%)
+  adding: bolt/Log$Sublevel.class(in = 282) (out= 225)(deflated 20%)
+  adding: bolt/Log.class(in = 3489) (out= 1635)(deflated 53%)
+  adding: bolt/Message.class(in = 4388) (out= 2315)(deflated 47%)
+  adding: bolt/MessageType$1.class(in = 396) (out= 273)(deflated 31%)
+  adding: bolt/MessageType$2.class(in = 428) (out= 283)(deflated 33%)
+  adding: bolt/MessageType$3.class(in = 428) (out= 283)(deflated 33%)
+  adding: bolt/MessageType.class(in = 2034) (out= 1130)(deflated 44%)
+  adding: bolt/Meta$1.class(in = 599) (out= 385)(deflated 35%)
+  adding: bolt/Meta$2.class(in = 610) (out= 407)(deflated 33%)
+  adding: bolt/Meta$3.class(in = 612) (out= 402)(deflated 34%)
+  adding: bolt/Meta$4.class(in = 666) (out= 446)(deflated 33%)
+  adding: bolt/Meta$5.class(in = 708) (out= 420)(deflated 40%)
+  adding: bolt/Meta$6.class(in = 711) (out= 431)(deflated 39%)
+  adding: bolt/Meta$7.class(in = 712) (out= 435)(deflated 38%)
+  adding: bolt/Meta$8.class(in = 713) (out= 431)(deflated 39%)
+  adding: bolt/Meta$9.class(in = 690) (out= 468)(deflated 32%)
+  adding: bolt/Meta$Parser.class(in = 224) (out= 176)(deflated 21%)
+  adding: bolt/Meta.class(in = 8137) (out= 4140)(deflated 49%)
+  adding: bolt/Options.class(in = 3218) (out= 1703)(deflated 47%)
+  adding: bolt/Processor.class(in = 142) (out= 123)(deflated 13%)
+  adding: bolt/Property$Encoding.class(in = 379) (out= 269)(deflated 29%)
+  adding: bolt/Property$Mode.class(in = 1082) (out= 609)(deflated 43%)
+  adding: bolt/Property.class(in = 2779) (out= 1399)(deflated 49%)
+  adding: bolt/PropertyType.class(in = 1843) (out= 1039)(deflated 43%)
+  adding: bolt/RealDistributor$1.class(in = 199) (out= 157)(deflated 21%)
+  adding: bolt/RealDistributor$Group.class(in = 626) (out= 351)(deflated 43%)
+  adding: bolt/RealDistributor.class(in = 5991) (out= 3091)(deflated 48%)
+  adding: bolt/RealProcessor$1.class(in = 753) (out= 457)(deflated 39%)
+  adding: bolt/RealProcessor$2.class(in = 517) (out= 343)(deflated 33%)
+  adding: bolt/RealProcessor$3.class(in = 592) (out= 375)(deflated 36%)
+  adding: bolt/RealProcessor$4.class(in = 724) (out= 446)(deflated 38%)
+  adding: bolt/RealProcessor$5.class(in = 518) (out= 343)(deflated 33%)
+  adding: bolt/RealProcessor$Handler.class(in = 218) (out= 165)(deflated 24%)
+  adding: bolt/RealProcessor.class(in = 5057) (out= 2621)(deflated 48%)
+  adding: bolt/Statistics.class(in = 986) (out= 484)(deflated 50%)
+  adding: bolt/StringProperty.class(in = 2036) (out= 975)(deflated 52%)
+  adding: bolt/Unpacker$Target.class(in = 248) (out= 195)(deflated 21%)
+  adding: bolt/Unpacker.class(in = 2173) (out= 1199)(deflated 44%)
+          1 file(s) copied.
+  util.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Test.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  TCPSocket.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winnt.h(31): fatal error C1083: Cannot open include file: 'ctype.h': No such file or directory
+  Shared.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Result.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Reader.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Property.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Packet.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  OutputBuffer.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Options.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Meta.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Manager.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  InputBuffer.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Header.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\crtdefs.h(10): fatal error C1083: Cannot open include file: 'corecrt.h': No such file or directory
+  Encoder.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Decoder.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Connection.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  ByteBuffer.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  gmsec_bolt.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  BoltConnection.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Generating Code...

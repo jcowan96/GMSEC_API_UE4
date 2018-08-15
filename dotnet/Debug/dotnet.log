@@ -1,0 +1,33 @@
+﻿  Callback_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  ConfigFileIterator_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4\configfile.h(21): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  ConfigFile_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4\configfile.h(21): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  Config_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Connection_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  EventCallback_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  GMSECDefs_Net.cpp
+  GMSEC_Exception_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  MessageFieldIterator_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Message_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  ReplyCallback_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Status_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  SubscriptionInfo_Net.cpp
+  LogEntry_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  LogHandler_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Log_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  TimeSpec_Net.cpp
+  TimeUtil_Net.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory

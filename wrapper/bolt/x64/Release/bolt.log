@@ -1,0 +1,127 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: The property "WindowsTargetPlatformVersion" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)".
+  java version "1.8.0_171"
+  Java(TM) SE Runtime Environment (build 1.8.0_171-b11)
+  Java HotSpot(TM) 64-Bit Server VM (build 25.171-b11, mixed mode)
+  added manifest
+  adding: bolt/(in = 0) (out= 0)(stored 0%)
+  adding: bolt/Client$Cooked.class(in = 1937) (out= 1124)(deflated 41%)
+  adding: bolt/Client$FakeRaw.class(in = 798) (out= 439)(deflated 44%)
+  adding: bolt/Client$Options.class(in = 461) (out= 335)(deflated 27%)
+  adding: bolt/Client$Raw.class(in = 379) (out= 266)(deflated 29%)
+  adding: bolt/Client$RealRaw.class(in = 4452) (out= 2398)(deflated 46%)
+  adding: bolt/Client$Shared.class(in = 419) (out= 289)(deflated 31%)
+  adding: bolt/Client.class(in = 6522) (out= 3279)(deflated 49%)
+  adding: bolt/Distributor.class(in = 314) (out= 189)(deflated 39%)
+  adding: bolt/DoubleProperty.class(in = 1035) (out= 556)(deflated 46%)
+  adding: bolt/FakeDistributor.class(in = 560) (out= 302)(deflated 46%)
+  adding: bolt/FakeProcessor.class(in = 697) (out= 425)(deflated 39%)
+  adding: bolt/FlagProperty.class(in = 1090) (out= 599)(deflated 45%)
+  adding: bolt/Header.class(in = 2841) (out= 1504)(deflated 47%)
+  adding: bolt/IntegerProperty.class(in = 1039) (out= 555)(deflated 46%)
+  adding: bolt/IOManager.class(in = 6527) (out= 3585)(deflated 45%)
+  adding: bolt/Log$LogFormatter.class(in = 1728) (out= 956)(deflated 44%)
+  adding: bolt/Log$Sublevel.class(in = 282) (out= 225)(deflated 20%)
+  adding: bolt/Log.class(in = 3101) (out= 1471)(deflated 52%)
+  adding: bolt/Message.class(in = 4162) (out= 2213)(deflated 46%)
+  adding: bolt/MessageType$1.class(in = 396) (out= 272)(deflated 31%)
+  adding: bolt/MessageType$2.class(in = 428) (out= 283)(deflated 33%)
+  adding: bolt/MessageType$3.class(in = 428) (out= 283)(deflated 33%)
+  adding: bolt/MessageType.class(in = 2034) (out= 1130)(deflated 44%)
+  adding: bolt/Meta$1.class(in = 599) (out= 388)(deflated 35%)
+  adding: bolt/Meta$2.class(in = 610) (out= 410)(deflated 32%)
+  adding: bolt/Meta$3.class(in = 612) (out= 408)(deflated 33%)
+  adding: bolt/Meta$4.class(in = 666) (out= 447)(deflated 32%)
+  adding: bolt/Meta$5.class(in = 708) (out= 423)(deflated 40%)
+  adding: bolt/Meta$6.class(in = 711) (out= 433)(deflated 39%)
+  adding: bolt/Meta$7.class(in = 712) (out= 437)(deflated 38%)
+  adding: bolt/Meta$8.class(in = 713) (out= 430)(deflated 39%)
+  adding: bolt/Meta$9.class(in = 699) (out= 470)(deflated 32%)
+  adding: bolt/Meta$Parser.class(in = 224) (out= 176)(deflated 21%)
+  adding: bolt/Meta.class(in = 7817) (out= 4015)(deflated 48%)
+  adding: bolt/Options.class(in = 2965) (out= 1608)(deflated 45%)
+  adding: bolt/Processor.class(in = 142) (out= 123)(deflated 13%)
+  adding: bolt/Property$Encoding.class(in = 379) (out= 269)(deflated 29%)
+  adding: bolt/Property$Mode.class(in = 1082) (out= 609)(deflated 43%)
+  adding: bolt/Property.class(in = 2557) (out= 1309)(deflated 48%)
+  adding: bolt/PropertyType.class(in = 1843) (out= 1039)(deflated 43%)
+  adding: bolt/RealDistributor$1.class(in = 199) (out= 157)(deflated 21%)
+  adding: bolt/RealDistributor$Group.class(in = 626) (out= 351)(deflated 43%)
+  adding: bolt/RealDistributor.class(in = 5725) (out= 2988)(deflated 47%)
+  adding: bolt/RealProcessor$1.class(in = 753) (out= 457)(deflated 39%)
+  adding: bolt/RealProcessor$2.class(in = 517) (out= 342)(deflated 33%)
+  adding: bolt/RealProcessor$3.class(in = 592) (out= 374)(deflated 36%)
+  adding: bolt/RealProcessor$4.class(in = 724) (out= 445)(deflated 38%)
+  adding: bolt/RealProcessor$5.class(in = 518) (out= 343)(deflated 33%)
+  adding: bolt/RealProcessor$Handler.class(in = 218) (out= 165)(deflated 24%)
+  adding: bolt/RealProcessor.class(in = 4823) (out= 2562)(deflated 46%)
+  adding: bolt/Server.class(in = 4112) (out= 2228)(deflated 45%)
+  adding: bolt/Statistics.class(in = 986) (out= 484)(deflated 50%)
+  adding: bolt/StringProperty.class(in = 1789) (out= 890)(deflated 50%)
+  adding: bolt/Topic.class(in = 2670) (out= 1494)(deflated 44%)
+  adding: bolt/Unpacker$Target.class(in = 248) (out= 195)(deflated 21%)
+  adding: bolt/Unpacker.class(in = 2198) (out= 1204)(deflated 45%)
+  adding: bolt/Version.class(in = 536) (out= 356)(deflated 33%)
+          1 file(s) copied.
+  BoltConnection.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\gmsec\boltconnection.cpp(335): warning C4267: 'argument': conversion from 'size_t' to 'bolt::i32', possible loss of data
+  gmsec_bolt.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  ByteBuffer.cpp
+  Connection.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Decoder.cpp
+  Encoder.cpp
+  Header.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  InputBuffer.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Manager.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Meta.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\src\meta.cpp(175): warning C4267: 'argument': conversion from 'size_t' to 'bolt::i32', possible loss of data
+  Options.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  OutputBuffer.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Packet.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Property.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\src\property.cpp(63): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\src\property.cpp(362): warning C4267: '+=': conversion from 'size_t' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\src\property.cpp(417): warning C4267: 'argument': conversion from 'size_t' to 'bolt::i32', possible loss of data
+  Reader.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Result.cpp
+  Shared.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  TCPSocket.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\src\tcpsocket.cpp(184): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\src\tcpsocket.cpp(462): warning C4244: 'argument': conversion from 'bolt::TCPSocket::handle_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\src\tcpsocket.cpp(535): warning C4244: 'argument': conversion from 'bolt::TCPSocket::handle_t' to 'int', possible loss of data
+  Test.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\inputbuffer.h(41): warning C4244: 'return': conversion from '__int64' to 'bolt::i32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\bolt\include\bolt\outputbuffer.h(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  util.cpp
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1205,5): warning MSB8012: TargetPath(C:\Users\jmcowan\Dev\GMSEC_API\wrapper\bolt\x64\Release\bolt.dll) does not match the Linker's OutputFile property value (C:\Users\jmcowan\Dev\GMSEC_API\bin\gmsec_bolt.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1207,5): warning MSB8012: TargetName(bolt) does not match the Linker's OutputFile property value (gmsec_bolt). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\Release/gmsec_bolt.lib and object .\Release/gmsec_bolt.exp
+  bolt.vcxproj -> C:\Users\jmcowan\Dev\GMSEC_API\wrapper\bolt\x64\Release\bolt.dll

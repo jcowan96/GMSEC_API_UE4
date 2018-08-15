@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{03540a22-a35f-43e7-86ea-e1151bf92b20}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{86eb446c-d357-414f-a040-c9f932e53458}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0879df8d-09b0-4825-892d-d46ce5ab1e80}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files 4.x">
+      <UniqueIdentifier>{2ce6d508-a905-4df0-a838-65e9cd8ba25d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files 4.x">
+      <UniqueIdentifier>{04567fd9-c594-481b-a8bf-b868a3c20145}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\gmsecJNI_Cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_Callbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_ConfigFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_ConnectionFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_ConnectionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_Field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_Init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_Jenv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmsecJNI_Status.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_BinaryField.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_BooleanField.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Cache.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Callback.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_CharField.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Config.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ConfigFile.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ConfigFileIterator.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Connection.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ConnectionManager.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ConnectionManagerCallback.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ConnectionManagerEventCallback.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ConnectionManagerReplyCallback.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_CustomSpecification.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Device.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_DeviceIterator.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_DeviceMessage.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_DeviceParam.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_EventCallback.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_F32Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_F64Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_I16Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_I32Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_I64Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_I8Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Init.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Jenv.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Log.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_LogHandler.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Message.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_MessageFieldIterator.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_MistMessage.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Mnemonic.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_MnemonicIterator.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_MnemonicMessage.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_MnemonicSample.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ProductFile.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ProductFileIterator.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ProductFileMessage.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ReplyCallback.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_SchemaIDIterator.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_ServiceParam.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Specification.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_Status.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_StringField.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_TimeSpec.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_TimeUtil.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_U16Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_U32Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_U64Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+    <ClCompile Include="src_4x\gmsecJNI_U8Field.cpp">
+      <Filter>Source Files 4.x</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\gmsecJNI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gmsecJNI_Cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gmsecJNI_Callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gmsecJNI_Jenv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI_Cache.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI_Callback.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI_ConnectionManagerCallback.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI_ConnectionManagerEventCallback.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI_ConnectionManagerReplyCallback.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI_CustomSpecification.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI_EventCallback.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI_Jenv.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI_LogHandler.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+    <ClInclude Include="src_4x\gmsecJNI_ReplyCallback.h">
+      <Filter>Header Files 4.x</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

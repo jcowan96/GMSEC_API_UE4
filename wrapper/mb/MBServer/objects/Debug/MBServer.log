@@ -1,0 +1,21 @@
+﻿  TCPSocketServer.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  TCPSocket.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  MBWire.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  MBService.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  MBServer.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  MBResourceData.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  MBFastMessage.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  ConnMgrCallback.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  ConnectionWriter.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  ConnectionMgr.cpp
+c:\users\jmcowan\dev\gmsec_api\framework\include\gmsec4_defs.h(18): fatal error C1083: Cannot open include file: 'gmsec_version.h': No such file or directory
+  Generating Code...

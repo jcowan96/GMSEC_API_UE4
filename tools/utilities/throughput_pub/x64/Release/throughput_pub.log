@@ -1,0 +1,5 @@
+﻿  status_reporter.cpp
+  throughput_pub.cpp
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1205,5): warning MSB8012: TargetPath(C:\Users\jmcowan\Dev\GMSEC_API\tools\utilities\throughput_pub\x64\Release\throughput_pub.exe) does not match the Linker's OutputFile property value (C:\Users\jmcowan\Dev\GMSEC_API\bin\throughput_pub.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  throughput_pub.vcxproj -> C:\Users\jmcowan\Dev\GMSEC_API\tools\utilities\throughput_pub\x64\Release\throughput_pub.exe

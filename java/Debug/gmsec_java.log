@@ -1,0 +1,320 @@
+﻿  
+  Microsoft (R) Program Maintenance Utility Version 14.14.26430.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	javac -version
+  javac 10.0.1
+  	javac -deprecation -d classes -classpath classes  gov\nasa\gsfc\gmsecapi\Callback.java gov\nasa\gsfc\gmsecapi\Config.java gov\nasa\gsfc\gmsecapi\ConfigFile.java gov\nasa\gsfc\gmsecapi\Connection.java gov\nasa\gsfc\gmsecapi\ConnectionFactory.java gov\nasa\gsfc\gmsecapi\ErrorCallback.java gov\nasa\gsfc\gmsecapi\Field.java gov\nasa\gsfc\gmsecapi\gmsecAPI.java gov\nasa\gsfc\gmsecapi\GMSEC_Bin.java gov\nasa\gsfc\gmsecapi\GMSEC_Bool.java gov\nasa\gsfc\gmsecapi\GMSEC_Char.java gov\nasa\gsfc\gmsecapi\GMSEC_Double.java gov\nasa\gsfc\gmsecapi\GMSEC_F32.java gov\nasa\gsfc\gmsecapi\GMSEC_F64.java gov\nasa\gsfc\gmsecapi\GMSEC_Float.java gov\nasa\gsfc\gmsecapi\GMSEC_I16.java gov\nasa\gsfc\gmsecapi\GMSEC_I32.java gov\nasa\gsfc\gmsecapi\GMSEC_I64.java gov\nasa\gsfc\gmsecapi\GMSEC_I8.java gov\nasa\gsfc\gmsecapi\GMSEC_Long.java gov\nasa\gsfc\gmsecapi\GMSEC_Short.java gov\nasa\gsfc\gmsecapi\GMSEC_String.java gov\nasa\gsfc\gmsecapi\GMSEC_U16.java gov\nasa\gsfc\gmsecapi\GMSEC_U32.java gov\nasa\gsfc\gmsecapi\GMSEC_U8.java gov\nasa\gsfc\gmsecapi\GMSEC_ULong.java gov\nasa\gsfc\gmsecapi\GMSEC_UShort.java gov\nasa\gsfc\gmsecapi\Log.java gov\nasa\gsfc\gmsecapi\Message.java gov\nasa\gsfc\gmsecapi\ReplyCallback.java gov\nasa\gsfc\gmsecapi\Status.java gov\nasa\gsfc\gmsecapi\internal\CallbackLookup.java gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java gov\nasa\gsfc\gmsecapi\internal\StatusException.java gov\nasa\gsfc\gmsecapi\jni\gmsecJNI.java gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java gov\nasa\gsfc\gmsecapi\jni\JNIConfigFile.java gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java gov\nasa\gsfc\gmsecapi\jni\JNIConnectionFactory.java gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java gov\nasa\gsfc\gmsecapi\jni\JNIField.java gov\nasa\gsfc\gmsecapi\jni\JNILog.java gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java gov\nasa\gsfc\gmsecapi\jni\JNIStatus.java gov\nasa\gsfc\gmsecapi\jni\JNITimeUtil.java gov\nasa\gsfc\gmsecapi\mist\ConnectionManager.java gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerCallback.java gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerErrorCallback.java gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerReplyCallback.java gov\nasa\gsfc\gmsecapi\util\Log.java gov\nasa\gsfc\gmsecapi\util\LogEntry.java gov\nasa\gsfc\gmsecapi\util\LogHandler.java gov\nasa\gsfc\gmsecapi\util\LogLevelGMSEC.java gov\nasa\gsfc\gmsecapi\util\SystemValidator.java gov\nasa\gsfc\gmsecapi\util\TimeUtil.java
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:28: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status SetKind(int kind);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:30: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetKind(GMSEC_UShort kind);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:30: warning: [deprecation] GMSEC_UShort in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetKind(GMSEC_UShort kind);
+  	                      ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:32: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status SetSubject(String subject);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:34: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetSubject(GMSEC_String subject);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:34: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetSubject(GMSEC_String subject);
+  	                         ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:36: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ClearFields();
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:38: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ClearField(String name);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:40: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status AddField(Field field);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:40: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status AddField(Field field);
+  	                       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:42: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetField(String name, Field field);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:42: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetField(String name, Field field);
+  	                                    ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:44: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFieldCount(GMSEC_Long count);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:44: warning: [deprecation] GMSEC_Long in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFieldCount(GMSEC_Long count);
+  	                            ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:46: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFirstField(Field field);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:46: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFirstField(Field field);
+  	                            ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:48: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetNextField(Field field);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:48: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetNextField(Field field);
+  	                           ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:50: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status SetConfig(Config config);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:50: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status SetConfig(Config config);
+  	                        ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:52: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ToXML(GMSEC_String outst);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:52: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ToXML(GMSEC_String outst);
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:54: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status FromXML(String inst);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:56: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status FromXML(Node n);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:60: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status FromJSON(String inst);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:62: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetMSGSize(GMSEC_ULong size);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:62: warning: [deprecation] GMSEC_ULong in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetMSGSize(GMSEC_ULong size);
+  	                         ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:32: warning: [deprecation] finalize() in Object has been deprecated
+  	protected void finalize() throws Throwable
+  	               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:38: warning: [deprecation] finalize() in Object has been deprecated
+  			super.finalize();
+  			     ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:88: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public JNIConfig(Config cfg)
+  	                 ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:90: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  		this(gmsecJNI.new_Config_Copy(JNIConfig.getCPtr(Config.getInternal(cfg)), Config.getInternal(cfg)), true);
+  		                                                ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:90: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  		this(gmsecJNI.new_Config_Copy(JNIConfig.getCPtr(Config.getInternal(cfg)), Config.getInternal(cfg)), true);
+  		                                                                          ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:121: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  		GMSEC_String name = new GMSEC_String();
+  		^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:121: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  		GMSEC_String name = new GMSEC_String();
+  		                        ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:122: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  		GMSEC_String value = new GMSEC_String();
+  		^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:122: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  		GMSEC_String value = new GMSEC_String();
+  		                         ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:124: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  		Status res = new Status();
+  		^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:124: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  		Status res = new Status();
+  		                 ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:142: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status AddValue(String name, String value)
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:154: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ClearValue(String name)
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:168: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetValue(String name, GMSEC_String value)
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:168: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetValue(String name, GMSEC_String value)
+  	                                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:179: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status Clear()
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:195: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFirst(GMSEC_String name, GMSEC_String value)
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:195: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFirst(GMSEC_String name, GMSEC_String value)
+  	                       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:195: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFirst(GMSEC_String name, GMSEC_String value)
+  	                                          ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:220: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetNext(GMSEC_String name, GMSEC_String value)
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:220: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetNext(GMSEC_String name, GMSEC_String value)
+  	                      ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:220: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetNext(GMSEC_String name, GMSEC_String value)
+  	                                         ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:236: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ToXML(GMSEC_String xml)
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:236: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ToXML(GMSEC_String xml)
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:259: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status FromXML(String xml)
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:28: warning: [deprecation] Connection in gov.nasa.gsfc.gmsecapi has been deprecated
+  	private Connection extconn;
+  	        ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:53: warning: [deprecation] finalize() in Object has been deprecated
+  	protected void finalize() throws Throwable
+  	               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:59: warning: [deprecation] finalize() in Object has been deprecated
+  			super.finalize();
+  			     ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:86: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status Connect()
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:97: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status Disconnect()
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:137: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status Subscribe(String subject)
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:141: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:142: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:143: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_INVALID_SUBJECT_NAME,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:162: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status Subscribe(String subject, Callback cb)
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:162: warning: [deprecation] Callback in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status Subscribe(String subject, Callback cb)
+  	                                                     ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:166: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:167: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:168: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_INVALID_SUBJECT_NAME,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:173: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:174: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:175: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_INVALID_CALLBACK,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:191: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status UnSubscribe(String subject)
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:195: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:196: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:197: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_INVALID_SUBJECT_NAME,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:214: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status UnSubscribe(String subject, Callback cb)
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:214: warning: [deprecation] Callback in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status UnSubscribe(String subject, Callback cb)
+  	                                                       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:218: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:219: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:220: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_INVALID_SUBJECT_NAME,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:241: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status RegisterErrorCallback(String event, ErrorCallback cb)
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:241: warning: [deprecation] ErrorCallback in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status RegisterErrorCallback(String event, ErrorCallback cb)
+  	                                                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:245: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:246: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:247: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_OTHER_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:270: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status RemoveErrorCallback(String event, ErrorCallback cb)
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:270: warning: [deprecation] ErrorCallback in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status RemoveErrorCallback(String event, ErrorCallback cb)
+  	                                                             ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:273: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  		return new Status();
+  		           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:290: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetNextMsg(Message msg, int timeout)
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:290: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetNextMsg(Message msg, int timeout)
+  	                         ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:294: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:295: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:296: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_UNINITIALIZED_OBJECT,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:301: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  		Status result = new JNIStatus(cPtr, true);
+  		^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:311: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status CreateMessage(Message msg)
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:311: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status CreateMessage(Message msg)
+  	                            ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:315: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:316: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:317: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_UNINITIALIZED_OBJECT,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:322: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  		Status result = new JNIStatus(cPtr, true);
+  		^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:341: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status CreateMessage(String subject, int msgKind, Message msg)
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:341: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status CreateMessage(String subject, int msgKind, Message msg)
+  	                                                         ^
+  gov\nasa\gsfc\gmsecapi\ConnectionFactory.java:81: error: cannot find symbol
+  		return gov.nasa.gsfc.gmsecapi.ApiVersion.GMSEC;
+  		                             ^
+    symbol:   class ApiVersion
+    location: package gov.nasa.gsfc.gmsecapi
+  Note: Some input files additionally use or override a deprecated API.
+  Note: gov\nasa\gsfc\gmsecapi\internal\CallbackLookup.java uses unchecked or unsafe operations.
+  Note: Recompile with -Xlint:unchecked for details.
+  1 error
+  100 warnings
+NMAKE : fatal error U1077: '"C:\Program Files\Java\jdk-10.0.1\bin\javac.EXE"' : return code '0x1'
+  Stop.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command "nmake /f "Makefile.nt" /a" exited with code 2.

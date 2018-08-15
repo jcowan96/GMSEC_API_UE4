@@ -1,0 +1,29 @@
+﻿  ConnectionMgr.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\connectionmgr.cpp(164): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\connectionmgr.cpp(476): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  ConnectionWriter.cpp
+  ConnMgrCallback.cpp
+  MBFastMessage.cpp
+  MBResourceData.cpp
+  MBServer.cpp
+  MBService.cpp
+  MBWire.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbwire.cpp(122): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbwire.cpp(136): warning C4267: '+=': conversion from 'size_t' to 'GMSEC_I32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbwire.cpp(188): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbwire.cpp(198): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  TCPSocket.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(114): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'gmsec_messagebus::TCPSocket::Socket'
+  c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(114): note: consider using '%lld' in the format string
+  c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(114): note: consider using '%Id' in the format string
+  c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(114): note: consider using '%I64d' in the format string
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(216): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(239): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(181): note: see declaration of 'strerror'
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(266): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(181): note: see declaration of 'strerror'
+  TCPSocketServer.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocketserver.cpp(110): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1205,5): warning MSB8012: TargetPath(C:\Users\jmcowan\Dev\GMSEC_API\wrapper\mb\MBServer\x64\Release\MBServer.exe) does not match the Linker's OutputFile property value (C:\Users\jmcowan\Dev\GMSEC_API\bin\MBServer.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  MBServer.vcxproj -> C:\Users\jmcowan\Dev\GMSEC_API\wrapper\mb\MBServer\x64\Release\MBServer.exe

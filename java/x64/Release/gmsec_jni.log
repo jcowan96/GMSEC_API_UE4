@@ -1,0 +1,78 @@
+﻿  gmsecJNI_Cache.cpp
+  gmsecJNI_Callbacks.cpp
+  gmsecJNI_Config.cpp
+  gmsecJNI_ConfigFile.cpp
+  gmsecJNI_Connection.cpp
+  gmsecJNI_ConnectionFactory.cpp
+  gmsecJNI_ConnectionManager.cpp
+  gmsecJNI_Field.cpp
+  gmsecJNI_Init.cpp
+  gmsecJNI_Jenv.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src\gmsecjni_jenv.cpp(97): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  gmsecJNI_Log.cpp
+  gmsecJNI_Message.cpp
+  gmsecJNI_Status.cpp
+  Generating Code...
+  gmsecJNI_BinaryField.cpp
+  gmsecJNI_BooleanField.cpp
+  gmsecJNI_Cache.cpp
+  gmsecJNI_Callback.cpp
+  gmsecJNI_CharField.cpp
+  gmsecJNI_Config.cpp
+  gmsecJNI_ConfigFile.cpp
+  gmsecJNI_ConfigFileIterator.cpp
+  gmsecJNI_Connection.cpp
+  gmsecJNI_ConnectionManager.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src_4x\gmsecjni_connectionmanager.cpp(399): warning C4267: 'argument': conversion from 'size_t' to 'jsize', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\java\src_4x\gmsecjni_connectionmanager.cpp(400): warning C4267: 'argument': conversion from 'size_t' to 'jsize', possible loss of data
+  gmsecJNI_ConnectionManagerCallback.cpp
+  gmsecJNI_ConnectionManagerEventCallback.cpp
+  gmsecJNI_ConnectionManagerReplyCallback.cpp
+  gmsecJNI_CustomSpecification.cpp
+  gmsecJNI_Device.cpp
+  gmsecJNI_DeviceIterator.cpp
+  gmsecJNI_DeviceMessage.cpp
+  gmsecJNI_DeviceParam.cpp
+  gmsecJNI_EventCallback.cpp
+  gmsecJNI_F32Field.cpp
+  Generating Code...
+  Compiling...
+  gmsecJNI_F64Field.cpp
+  gmsecJNI_Field.cpp
+  gmsecJNI_I16Field.cpp
+  gmsecJNI_I32Field.cpp
+  gmsecJNI_I64Field.cpp
+  gmsecJNI_I8Field.cpp
+  gmsecJNI_Init.cpp
+  gmsecJNI_Jenv.cpp
+c:\users\jmcowan\dev\gmsec_api\java\src_4x\gmsecjni_jenv.cpp(123): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  gmsecJNI_Log.cpp
+  gmsecJNI_LogHandler.cpp
+  gmsecJNI_Message.cpp
+  gmsecJNI_MessageFieldIterator.cpp
+  gmsecJNI_MistMessage.cpp
+  gmsecJNI_Mnemonic.cpp
+  gmsecJNI_MnemonicIterator.cpp
+  gmsecJNI_MnemonicMessage.cpp
+  gmsecJNI_MnemonicSample.cpp
+  gmsecJNI_ProductFile.cpp
+  gmsecJNI_ProductFileIterator.cpp
+  gmsecJNI_ProductFileMessage.cpp
+  Generating Code...
+  Compiling...
+  gmsecJNI_ReplyCallback.cpp
+  gmsecJNI_SchemaIDIterator.cpp
+  gmsecJNI_ServiceParam.cpp
+  gmsecJNI_Specification.cpp
+  gmsecJNI_Status.cpp
+  gmsecJNI_StringField.cpp
+  gmsecJNI_TimeSpec.cpp
+  gmsecJNI_TimeUtil.cpp
+  gmsecJNI_U16Field.cpp
+  gmsecJNI_U32Field.cpp
+  gmsecJNI_U64Field.cpp
+  gmsecJNI_U8Field.cpp
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1205,5): warning MSB8012: TargetPath(C:\Users\jmcowan\Dev\GMSEC_API\java\x64\Release\gmsec_jni.dll) does not match the Linker's OutputFile property value (C:\Users\jmcowan\Dev\GMSEC_API\bin\gmsec_jni.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\..\objects\Release/gmsec_jni.lib and object .\..\objects\Release/gmsec_jni.exp
+  gmsec_jni.vcxproj -> C:\Users\jmcowan\Dev\GMSEC_API\java\x64\Release\gmsec_jni.dll

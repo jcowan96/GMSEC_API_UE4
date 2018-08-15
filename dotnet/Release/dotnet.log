@@ -1,0 +1,81 @@
+﻿  Callback_Net.cpp
+  ConfigFileIterator_Net.cpp
+  ConfigFile_Net.cpp
+  Config_Net.cpp
+  Connection_Net.cpp
+  EventCallback_Net.cpp
+  BinaryField_Net.cpp
+  BooleanField_Net.cpp
+  CharField_Net.cpp
+  F32Field_Net.cpp
+  F64Field_Net.cpp
+  FieldConverter_Net.cpp
+  Field_Net.cpp
+  I16Field_Net.cpp
+  I32Field_Net.cpp
+  I64Field_Net.cpp
+  I8Field_Net.cpp
+  StringField_Net.cpp
+  U16Field_Net.cpp
+  U32Field_Net.cpp
+  Generating Code...
+  Compiling...
+  U64Field_Net.cpp
+  U8Field_Net.cpp
+  GMSECDefs_Net.cpp
+  GMSEC_Exception_Net.cpp
+  MessageFieldIterator_Net.cpp
+  Message_Net.cpp
+  ReplyCallback_Net.cpp
+  Status_Net.cpp
+  SubscriptionInfo_Net.cpp
+  LogEntry_Net.cpp
+  LogHandler_Net.cpp
+  Log_Net.cpp
+  TimeSpec_Net.cpp
+  TimeUtil_Net.cpp
+  Generating Code...
+  ConnectionManagerCallback_Net.cpp
+  ConnectionManagerEventCallback_Net.cpp
+  ConnectionManagerReplyCallback_Net.cpp
+  ConnectionManager_Net.cpp
+  DeviceIterator_Net.cpp
+  DeviceMessage_Net.cpp
+  DeviceParam_Net.cpp
+  Device_Net.cpp
+  MnemonicIterator_Net.cpp
+  MnemonicMessage_Net.cpp
+  MnemonicSample_Net.cpp
+  Mnemonic_Net.cpp
+  ProductFileIterator_Net.cpp
+  ProductFileMessage_Net.cpp
+  ProductFile_Net.cpp
+  SchemaIDIterator_Net.cpp
+  ServiceParam_Net.cpp
+  Specification_Net.cpp
+  SubscriptionInfo_Net.cpp
+  Generating Code...
+  DeviceMessage_Net.cpp
+  MistMessage_Net.cpp
+  MnemonicMessage_Net.cpp
+  ProductFileMessage_Net.cpp
+  Generating Code...
+  Callback_Net.cpp
+  ConfigFile_Net.cpp
+  Config_Net.cpp
+  ConnectionFactory_Net.cpp
+  Connection_Net.cpp
+  ErrorCallback_Net.cpp
+  FieldIterator_Net.cpp
+  Field_Net.cpp
+  GMSECDefs_Net.cpp
+  GMSECErrors_Net.cpp
+  Message_Net.cpp
+  ReplyCallback_Net.cpp
+  Status_Net.cpp
+  Generating Code...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1205,5): warning MSB8012: TargetPath(C:\Users\jmcowan\Dev\GMSEC_API\dotnet\Release\dotnet.dll) does not match the Linker's OutputFile property value (C:\Users\jmcowan\Dev\GMSEC_API\bin\Nasa.Gmsec.Net.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1207,5): warning MSB8012: TargetName(dotnet) does not match the Linker's OutputFile property value (Nasa.Gmsec.Net). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+LINK : fatal error LNK1256: ALINK operation failed (80040414) : Error reading key file '..\..\SUPPORT\windows_snk\GMSEC.snk' -- The system cannot find the path specified.

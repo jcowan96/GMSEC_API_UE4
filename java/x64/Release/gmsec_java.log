@@ -1,0 +1,530 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: The property "WindowsTargetPlatformVersion" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)".
+  
+  Microsoft (R) Program Maintenance Utility Version 14.14.26430.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	javac -version
+  javac 1.8.0_171
+  	javac -deprecation -d classes -classpath classes  gov\nasa\gsfc\gmsecapi\ApiVersion.java gov\nasa\gsfc\gmsecapi\Callback.java gov\nasa\gsfc\gmsecapi\Config.java gov\nasa\gsfc\gmsecapi\ConfigFile.java gov\nasa\gsfc\gmsecapi\Connection.java gov\nasa\gsfc\gmsecapi\ConnectionFactory.java gov\nasa\gsfc\gmsecapi\ErrorCallback.java gov\nasa\gsfc\gmsecapi\Field.java gov\nasa\gsfc\gmsecapi\gmsecAPI.java gov\nasa\gsfc\gmsecapi\GMSEC_Bin.java gov\nasa\gsfc\gmsecapi\GMSEC_Bool.java gov\nasa\gsfc\gmsecapi\GMSEC_Char.java gov\nasa\gsfc\gmsecapi\GMSEC_Double.java gov\nasa\gsfc\gmsecapi\GMSEC_F32.java gov\nasa\gsfc\gmsecapi\GMSEC_F64.java gov\nasa\gsfc\gmsecapi\GMSEC_Float.java gov\nasa\gsfc\gmsecapi\GMSEC_I16.java gov\nasa\gsfc\gmsecapi\GMSEC_I32.java gov\nasa\gsfc\gmsecapi\GMSEC_I64.java gov\nasa\gsfc\gmsecapi\GMSEC_I8.java gov\nasa\gsfc\gmsecapi\GMSEC_Long.java gov\nasa\gsfc\gmsecapi\GMSEC_Short.java gov\nasa\gsfc\gmsecapi\GMSEC_String.java gov\nasa\gsfc\gmsecapi\GMSEC_U16.java gov\nasa\gsfc\gmsecapi\GMSEC_U32.java gov\nasa\gsfc\gmsecapi\GMSEC_U8.java gov\nasa\gsfc\gmsecapi\GMSEC_ULong.java gov\nasa\gsfc\gmsecapi\GMSEC_UShort.java gov\nasa\gsfc\gmsecapi\Log.java gov\nasa\gsfc\gmsecapi\Message.java gov\nasa\gsfc\gmsecapi\ReplyCallback.java gov\nasa\gsfc\gmsecapi\Status.java gov\nasa\gsfc\gmsecapi\internal\CallbackLookup.java gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java gov\nasa\gsfc\gmsecapi\internal\StatusException.java gov\nasa\gsfc\gmsecapi\jni\gmsecJNI.java gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java gov\nasa\gsfc\gmsecapi\jni\JNIConfigFile.java gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java gov\nasa\gsfc\gmsecapi\jni\JNIConnectionFactory.java gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java gov\nasa\gsfc\gmsecapi\jni\JNIField.java gov\nasa\gsfc\gmsecapi\jni\JNILog.java gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java gov\nasa\gsfc\gmsecapi\jni\JNIStatus.java gov\nasa\gsfc\gmsecapi\jni\JNITimeUtil.java gov\nasa\gsfc\gmsecapi\mist\ConnectionManager.java gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerCallback.java gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerErrorCallback.java gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerReplyCallback.java gov\nasa\gsfc\gmsecapi\util\Log.java gov\nasa\gsfc\gmsecapi\util\LogEntry.java gov\nasa\gsfc\gmsecapi\util\LogHandler.java gov\nasa\gsfc\gmsecapi\util\LogLevelGMSEC.java gov\nasa\gsfc\gmsecapi\util\SystemValidator.java gov\nasa\gsfc\gmsecapi\util\TimeUtil.java
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:14: warning: [deprecation] Callback in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Callback;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:15: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Config;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:16: warning: [deprecation] Connection in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Connection;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:17: warning: [deprecation] ErrorCallback in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.ErrorCallback;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:18: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Message;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:19: warning: [deprecation] ReplyCallback in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.ReplyCallback;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:20: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Status;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:21: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.gmsecAPI;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:16: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Config;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:17: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Status;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfig.java:18: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.GMSEC_String;
+                               ^
+  gov\nasa\gsfc\gmsecapi\ConfigFile.java:16: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Config;
+                               ^
+  gov\nasa\gsfc\gmsecapi\ConfigFile.java:17: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Message;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfigFile.java:15: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Config;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfigFile.java:16: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.GMSEC_String;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfigFile.java:17: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Status;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfigFile.java:18: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Message;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConfigFile.java:19: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.gmsecAPI;
+                               ^
+  gov\nasa\gsfc\gmsecapi\internal\StatusException.java:16: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Status;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java:13: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.gmsecAPI;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java:14: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Config;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java:15: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Field;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java:16: warning: [deprecation] GMSEC_Long in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.GMSEC_Long;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java:17: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.GMSEC_String;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java:18: warning: [deprecation] GMSEC_Short in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.GMSEC_Short;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java:19: warning: [deprecation] GMSEC_ULong in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.GMSEC_ULong;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java:20: warning: [deprecation] GMSEC_UShort in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.GMSEC_UShort;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIMessage.java:21: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Status;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNILog.java:16: warning: [deprecation] LogHandler in gov.nasa.gsfc.gmsecapi.util has been deprecated
+  import gov.nasa.gsfc.gmsecapi.util.LogHandler;
+                                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:14: warning: [deprecation] ConnectionManager in gov.nasa.gsfc.gmsecapi.mist has been deprecated
+  import gov.nasa.gsfc.gmsecapi.mist.ConnectionManager;
+                                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:15: warning: [deprecation] ConnectionManagerCallback in gov.nasa.gsfc.gmsecapi.mist has been deprecated
+  import gov.nasa.gsfc.gmsecapi.mist.ConnectionManagerCallback;
+                                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:16: warning: [deprecation] ConnectionManagerReplyCallback in gov.nasa.gsfc.gmsecapi.mist has been deprecated
+  import gov.nasa.gsfc.gmsecapi.mist.ConnectionManagerReplyCallback;
+                                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:17: warning: [deprecation] ConnectionManagerErrorCallback in gov.nasa.gsfc.gmsecapi.mist has been deprecated
+  import gov.nasa.gsfc.gmsecapi.mist.ConnectionManagerErrorCallback;
+                                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:19: warning: [deprecation] Callback in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Callback;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:20: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Config;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:21: warning: [deprecation] Connection in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Connection;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:22: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Field;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:23: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Message;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:24: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Status;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:25: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.gmsecAPI;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionManager.java:26: warning: [deprecation] GMSEC_UShort in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.GMSEC_UShort;
+                               ^
+  gov\nasa\gsfc\gmsecapi\mist\ConnectionManager.java:23: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.gmsecAPI;
+                               ^
+  gov\nasa\gsfc\gmsecapi\mist\ConnectionManager.java:25: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Config;
+                               ^
+  gov\nasa\gsfc\gmsecapi\mist\ConnectionManager.java:26: warning: [deprecation] Connection in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Connection;
+                               ^
+  gov\nasa\gsfc\gmsecapi\mist\ConnectionManager.java:27: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Field;
+                               ^
+  gov\nasa\gsfc\gmsecapi\mist\ConnectionManager.java:28: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Message;
+                               ^
+  gov\nasa\gsfc\gmsecapi\mist\ConnectionManager.java:29: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Status;
+                               ^
+  gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerErrorCallback.java:19: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Message;
+                               ^
+  gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerErrorCallback.java:20: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Status;
+                               ^
+  gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerCallback.java:19: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Message;
+                               ^
+  gov\nasa\gsfc\gmsecapi\mist\ConnectionManagerReplyCallback.java:19: warning: [deprecation] Message in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Message;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionFactory.java:16: warning: [deprecation] Connection in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Connection;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionFactory.java:17: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.Status;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionFactory.java:18: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  import gov.nasa.gsfc.gmsecapi.gmsecAPI;
+                               ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnectionFactory.java:20: warning: [deprecation] Log in gov.nasa.gsfc.gmsecapi.util has been deprecated
+  import gov.nasa.gsfc.gmsecapi.util.Log;
+                                    ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:28: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status SetKind(int kind);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:30: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetKind(GMSEC_UShort kind);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:30: warning: [deprecation] GMSEC_UShort in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetKind(GMSEC_UShort kind);
+  	                      ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:32: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status SetSubject(String subject);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:34: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetSubject(GMSEC_String subject);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:34: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetSubject(GMSEC_String subject);
+  	                         ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:36: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ClearFields();
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:38: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ClearField(String name);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:40: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status AddField(Field field);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:40: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status AddField(Field field);
+  	                       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:42: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetField(String name, Field field);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:42: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetField(String name, Field field);
+  	                                    ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:44: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFieldCount(GMSEC_Long count);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:44: warning: [deprecation] GMSEC_Long in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFieldCount(GMSEC_Long count);
+  	                            ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:46: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFirstField(Field field);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:46: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetFirstField(Field field);
+  	                            ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:48: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetNextField(Field field);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:48: warning: [deprecation] Field in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetNextField(Field field);
+  	                           ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:50: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status SetConfig(Config config);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:50: warning: [deprecation] Config in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status SetConfig(Config config);
+  	                        ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:52: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ToXML(GMSEC_String outst);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:52: warning: [deprecation] GMSEC_String in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status ToXML(GMSEC_String outst);
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:54: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status FromXML(String inst);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:56: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status FromXML(Node n);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:60: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status FromJSON(String inst);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:62: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetMSGSize(GMSEC_ULong size);
+  	       ^
+  gov\nasa\gsfc\gmsecapi\internal\MessageImpl.java:62: warning: [deprecation] GMSEC_ULong in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status GetMSGSize(GMSEC_ULong size);
+  	                         ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:28: warning: [deprecation] Connection in gov.nasa.gsfc.gmsecapi has been deprecated
+  	private Connection extconn;
+  	        ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:86: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status Connect()
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:97: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public Status Disconnect()
+  	       ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:137: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status Subscribe(String subject)
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:141: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:142: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:143: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_INVALID_SUBJECT_NAME,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:162: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status Subscribe(String subject, Callback cb)
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:162: warning: [deprecation] Callback in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status Subscribe(String subject, Callback cb)
+  	                                                     ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:166: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:167: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:168: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_INVALID_SUBJECT_NAME,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:173: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:174: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:175: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_INVALID_CALLBACK,
+  				^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:191: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  	public synchronized Status UnSubscribe(String subject)
+  	                    ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:195: warning: [deprecation] Status in gov.nasa.gsfc.gmsecapi has been deprecated
+  			return new Status(
+  			           ^
+  gov\nasa\gsfc\gmsecapi\jni\JNIConnection.java:196: warning: [deprecation] gmsecAPI in gov.nasa.gsfc.gmsecapi has been deprecated
+  				gmsecAPI.GMSEC_STATUS_CONNECTION_ERROR,
+  				^
+  Note: Some input files additionally use or override a deprecated API.
+  Note: gov\nasa\gsfc\gmsecapi\internal\CallbackLookup.java uses unchecked or unsafe operations.
+  Note: Recompile with -Xlint:unchecked for details.
+  100 warnings
+  	javac -deprecation -d classes -classpath classes  gov\nasa\gsfc\gmsec\api\ApiVersion.java gov\nasa\gsfc\gmsec\api\Callback.java gov\nasa\gsfc\gmsec\api\Config.java gov\nasa\gsfc\gmsec\api\ConfigFile.java gov\nasa\gsfc\gmsec\api\ConfigFileIterator.java gov\nasa\gsfc\gmsec\api\Connection.java gov\nasa\gsfc\gmsec\api\EventCallback.java gov\nasa\gsfc\gmsec\api\gmsecAPI.java gov\nasa\gsfc\gmsec\api\GMSEC_Exception.java gov\nasa\gsfc\gmsec\api\Message.java gov\nasa\gsfc\gmsec\api\MessageFieldIterator.java gov\nasa\gsfc\gmsec\api\ReplyCallback.java gov\nasa\gsfc\gmsec\api\Status.java gov\nasa\gsfc\gmsec\api\StatusClassification.java gov\nasa\gsfc\gmsec\api\StatusCode.java gov\nasa\gsfc\gmsec\api\SubscriptionInfo.java gov\nasa\gsfc\gmsec\api\U16.java gov\nasa\gsfc\gmsec\api\U32.java gov\nasa\gsfc\gmsec\api\U64.java gov\nasa\gsfc\gmsec\api\U8.java gov\nasa\gsfc\gmsec\api\field\BinaryField.java gov\nasa\gsfc\gmsec\api\field\BooleanField.java gov\nasa\gsfc\gmsec\api\field\CharField.java gov\nasa\gsfc\gmsec\api\field\F32Field.java gov\nasa\gsfc\gmsec\api\field\F64Field.java gov\nasa\gsfc\gmsec\api\field\Field.java gov\nasa\gsfc\gmsec\api\field\I16Field.java gov\nasa\gsfc\gmsec\api\field\I32Field.java gov\nasa\gsfc\gmsec\api\field\I64Field.java gov\nasa\gsfc\gmsec\api\field\I8Field.java gov\nasa\gsfc\gmsec\api\field\StringField.java gov\nasa\gsfc\gmsec\api\field\U16Field.java gov\nasa\gsfc\gmsec\api\field\U32Field.java gov\nasa\gsfc\gmsec\api\field\U64Field.java gov\nasa\gsfc\gmsec\api\field\U8Field.java gov\nasa\gsfc\gmsec\api\jni\gmsecJNI.java gov\nasa\gsfc\gmsec\api\jni\JNICallback.java gov\nasa\gsfc\gmsec\api\jni\JNIConfig.java gov\nasa\gsfc\gmsec\api\jni\JNIConfigEntry.java gov\nasa\gsfc\gmsec\api\jni\JNIConfigFile.java gov\nasa\gsfc\gmsec\api\jni\JNIConfigFileIterator.java gov\nasa\gsfc\gmsec\api\jni\JNIConnection.java gov\nasa\gsfc\gmsec\api\jni\JNIEventCallback.java gov\nasa\gsfc\gmsec\api\jni\JNIMessage.java gov\nasa\gsfc\gmsec\api\jni\JNIMessageEntry.java gov\nasa\gsfc\gmsec\api\jni\JNIMessageFieldIterator.java gov\nasa\gsfc\gmsec\api\jni\JNIReplyCallback.java gov\nasa\gsfc\gmsec\api\jni\JNIStatus.java gov\nasa\gsfc\gmsec\api\jni\JNISubscriptionEntry.java gov\nasa\gsfc\gmsec\api\jni\JNISubscriptionInfo.java gov\nasa\gsfc\gmsec\api\jni\field\JNIBinaryField.java gov\nasa\gsfc\gmsec\api\jni\field\JNIBooleanField.java gov\nasa\gsfc\gmsec\api\jni\field\JNICharField.java gov\nasa\gsfc\gmsec\api\jni\field\JNIF32Field.java gov\nasa\gsfc\gmsec\api\jni\field\JNIF64Field.java gov\nasa\gsfc\gmsec\api\jni\field\JNIField.java gov\nasa\gsfc\gmsec\api\jni\field\JNIFieldConverter.java gov\nasa\gsfc\gmsec\api\jni\field\JNII16Field.java gov\nasa\gsfc\gmsec\api\jni\field\JNII32Field.java gov\nasa\gsfc\gmsec\api\jni\field\JNII64Field.java gov\nasa\gsfc\gmsec\api\jni\field\JNII8Field.java gov\nasa\gsfc\gmsec\api\jni\field\JNIStringField.java gov\nasa\gsfc\gmsec\api\jni\field\JNIU16Field.java gov\nasa\gsfc\gmsec\api\jni\field\JNIU32Field.java gov\nasa\gsfc\gmsec\api\jni\field\JNIU64Field.java gov\nasa\gsfc\gmsec\api\jni\field\JNIU8Field.java gov\nasa\gsfc\gmsec\api\jni\mist\ArrayListConverter.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIConnectionManager.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIConnMgrCallback.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIConnMgrEventCallback.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIConnMgrReplyCallback.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIConnMgrSubscriptionInfo.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIDevice.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIDeviceIterator.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIDeviceParam.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIMnemonic.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIMnemonicIterator.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIMnemonicSample.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIProductFile.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIProductFileIterator.java gov\nasa\gsfc\gmsec\api\jni\mist\JNISchemaIDIterator.java gov\nasa\gsfc\gmsec\api\jni\mist\JNIServiceParam.java gov\nasa\gsfc\gmsec\api\jni\mist\JNISpecification.java gov\nasa\gsfc\gmsec\api\jni\mist\message\JNIDeviceMessage.java gov\nasa\gsfc\gmsec\api\jni\mist\message\JNIMistMessage.java gov\nasa\gsfc\gmsec\api\jni\mist\message\JNIMnemonicMessage.java gov\nasa\gsfc\gmsec\api\jni\mist\message\JNIProductFileMessage.java gov\nasa\gsfc\gmsec\api\jni\util\JNILog.java gov\nasa\gsfc\gmsec\api\jni\util\JNILogHandler.java gov\nasa\gsfc\gmsec\api\jni\util\JNITimeSpec.java gov\nasa\gsfc\gmsec\api\jni\util\JNITimeUtil.java gov\nasa\gsfc\gmsec\api\mist\ConnectionManager.java gov\nasa\gsfc\gmsec\api\mist\ConnectionManagerCallback.java gov\nasa\gsfc\gmsec\api\mist\ConnectionManagerEventCallback.java gov\nasa\gsfc\gmsec\api\mist\ConnectionManagerReplyCallback.java gov\nasa\gsfc\gmsec\api\mist\Device.java gov\nasa\gsfc\gmsec\api\mist\DeviceIterator.java gov\nasa\gsfc\gmsec\api\mist\DeviceMessage.java gov\nasa\gsfc\gmsec\api\mist\DeviceParam.java gov\nasa\gsfc\gmsec\api\mist\gmsecMIST.java gov\nasa\gsfc\gmsec\api\mist\Mnemonic.java gov\nasa\gsfc\gmsec\api\mist\MnemonicIterator.java gov\nasa\gsfc\gmsec\api\mist\MnemonicMessage.java gov\nasa\gsfc\gmsec\api\mist\MnemonicSample.java gov\nasa\gsfc\gmsec\api\mist\ProductFile.java gov\nasa\gsfc\gmsec\api\mist\ProductFileIterator.java gov\nasa\gsfc\gmsec\api\mist\ProductFileMessage.java gov\nasa\gsfc\gmsec\api\mist\SchemaIDIterator.java gov\nasa\gsfc\gmsec\api\mist\ServiceParam.java gov\nasa\gsfc\gmsec\api\mist\Specification.java gov\nasa\gsfc\gmsec\api\mist\SubscriptionInfo.java gov\nasa\gsfc\gmsec\api\mist\message\DeviceMessage.java gov\nasa\gsfc\gmsec\api\mist\message\MistMessage.java gov\nasa\gsfc\gmsec\api\mist\message\MnemonicMessage.java gov\nasa\gsfc\gmsec\api\mist\message\ProductFileMessage.java gov\nasa\gsfc\gmsec\api\util\Log.java gov\nasa\gsfc\gmsec\api\util\LogEntry.java gov\nasa\gsfc\gmsec\api\util\LogHandler.java gov\nasa\gsfc\gmsec\api\util\LogLevelGMSEC.java gov\nasa\gsfc\gmsec\api\util\SystemValidator.java gov\nasa\gsfc\gmsec\api\util\TimeSpec.java gov\nasa\gsfc\gmsec\api\util\TimeUtil.java
+  	jar cvf ..\bin\gmsecapi.jar -C classes gov
+  added manifest
+  adding: gov/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsec/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsec/api/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsec/api/ApiVersion.class(in = 766) (out= 472)(deflated 38%)
+  adding: gov/nasa/gsfc/gmsec/api/Callback.class(in = 999) (out= 462)(deflated 53%)
+  adding: gov/nasa/gsfc/gmsec/api/Config.class(in = 3747) (out= 1422)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsec/api/ConfigFile$ConfigEntry.class(in = 707) (out= 374)(deflated 47%)
+  adding: gov/nasa/gsfc/gmsec/api/ConfigFile$MessageEntry.class(in = 714) (out= 380)(deflated 46%)
+  adding: gov/nasa/gsfc/gmsec/api/ConfigFile$SubscriptionEntry.class(in = 1009) (out= 503)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/ConfigFile.class(in = 4529) (out= 1581)(deflated 65%)
+  adding: gov/nasa/gsfc/gmsec/api/ConfigFileIterator.class(in = 1971) (out= 742)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsec/api/Connection$ConnectionEvent.class(in = 1784) (out= 892)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/Connection$ConnectionState.class(in = 1186) (out= 567)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/Connection.class(in = 6636) (out= 2367)(deflated 64%)
+  adding: gov/nasa/gsfc/gmsec/api/EventCallback.class(in = 1233) (out= 514)(deflated 58%)
+  adding: gov/nasa/gsfc/gmsec/api/field/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsec/api/field/BinaryField.class(in = 1227) (out= 613)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/field/BooleanField.class(in = 1131) (out= 566)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/field/CharField.class(in = 1113) (out= 562)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/field/F32Field.class(in = 1107) (out= 562)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/field/F64Field.class(in = 1107) (out= 561)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/field/Field$FieldType.class(in = 1761) (out= 864)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/field/Field.class(in = 2055) (out= 938)(deflated 54%)
+  adding: gov/nasa/gsfc/gmsec/api/field/I16Field.class(in = 1107) (out= 562)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/field/I32Field.class(in = 1107) (out= 562)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/field/I64Field.class(in = 1107) (out= 563)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/field/I8Field.class(in = 1101) (out= 561)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/field/StringField.class(in = 1257) (out= 598)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/field/U16Field.class(in = 1264) (out= 600)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/field/U32Field.class(in = 1264) (out= 600)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/field/U64Field.class(in = 1264) (out= 600)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/field/U8Field.class(in = 1255) (out= 600)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/gmsecAPI.class(in = 343) (out= 267)(deflated 22%)
+  adding: gov/nasa/gsfc/gmsec/api/GMSEC_Exception.class(in = 2626) (out= 1158)(deflated 55%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/gmsecJNI.class(in = 34466) (out= 6795)(deflated 80%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIBinaryField.class(in = 851) (out= 412)(deflated 51%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIBooleanField.class(in = 851) (out= 403)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNICallback.class(in = 1014) (out= 591)(deflated 41%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNICharField.class(in = 827) (out= 400)(deflated 51%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIConfig.class(in = 5651) (out= 2154)(deflated 61%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIConfigEntry.class(in = 1404) (out= 704)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIConfigFile.class(in = 5322) (out= 1720)(deflated 67%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIConfigFileIterator.class(in = 2932) (out= 1067)(deflated 63%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIConnection.class(in = 10871) (out= 3595)(deflated 66%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIEventCallback.class(in = 1049) (out= 595)(deflated 43%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIF32Field.class(in = 819) (out= 401)(deflated 51%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIF64Field.class(in = 819) (out= 399)(deflated 51%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIField.class(in = 2441) (out= 1013)(deflated 58%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIFieldConverter$1.class(in = 1444) (out= 722)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIFieldConverter.class(in = 3486) (out= 1225)(deflated 64%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNII16Field.class(in = 819) (out= 402)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNII32Field.class(in = 819) (out= 401)(deflated 51%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNII64Field.class(in = 771) (out= 394)(deflated 48%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNII8Field.class(in = 811) (out= 401)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNILog$DefaultLogHandler.class(in = 2487) (out= 1278)(deflated 48%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNILog.class(in = 4508) (out= 1832)(deflated 59%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNILogHandler.class(in = 1033) (out= 599)(deflated 42%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIMessage$1.class(in = 1423) (out= 722)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIMessage.class(in = 14199) (out= 4096)(deflated 71%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIMessageEntry.class(in = 1419) (out= 704)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIMessageFieldIterator.class(in = 1518) (out= 737)(deflated 51%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIReplyCallback.class(in = 1049) (out= 596)(deflated 43%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIStatus.class(in = 3627) (out= 1365)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIStringField.class(in = 911) (out= 403)(deflated 55%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNISubscriptionEntry.class(in = 1609) (out= 730)(deflated 54%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNISubscriptionInfo.class(in = 1127) (out= 620)(deflated 44%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNITimeSpec.class(in = 1238) (out= 672)(deflated 45%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNITimeUtil.class(in = 923) (out= 468)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIU16Field.class(in = 957) (out= 443)(deflated 53%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIU32Field.class(in = 909) (out= 436)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIU64Field.class(in = 1030) (out= 454)(deflated 55%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/JNIU8Field.class(in = 946) (out= 443)(deflated 53%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/ArrayListConverter.class(in = 6794) (out= 1623)(deflated 76%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIConnectionManager.class(in = 23438) (out= 6120)(deflated 73%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIConnMgrCallback.class(in = 1113) (out= 619)(deflated 44%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIConnMgrEventCallback.class(in = 1148) (out= 626)(deflated 45%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIConnMgrReplyCallback.class(in = 1148) (out= 627)(deflated 45%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIConnMgrSubscriptionInfo.class(in = 1224) (out= 640)(deflated 47%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIDevice.class(in = 6492) (out= 2180)(deflated 66%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIDeviceIterator.class(in = 1533) (out= 739)(deflated 51%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIDeviceParam.class(in = 2159) (out= 929)(deflated 56%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIMnemonic.class(in = 4425) (out= 1602)(deflated 63%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIMnemonicIterator.class(in = 1559) (out= 742)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIMnemonicSample.class(in = 5295) (out= 1718)(deflated 67%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIProductFile.class(in = 2687) (out= 1021)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIProductFileIterator.class(in = 1598) (out= 746)(deflated 53%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNISchemaIDIterator.class(in = 1369) (out= 686)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNIServiceParam.class(in = 2035) (out= 895)(deflated 56%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/JNISpecification.class(in = 2650) (out= 1019)(deflated 61%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/message/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/message/JNIDeviceMessage.class(in = 3828) (out= 1123)(deflated 70%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/message/JNIMistMessage$1.class(in = 895) (out= 511)(deflated 42%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/message/JNIMistMessage.class(in = 4975) (out= 1877)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/message/JNIMnemonicMessage.class(in = 3705) (out= 1101)(deflated 70%)
+  adding: gov/nasa/gsfc/gmsec/api/jni/mist/message/JNIProductFileMessage.class(in = 5731) (out= 1530)(deflated 73%)
+  adding: gov/nasa/gsfc/gmsec/api/Message$MessageKind.class(in = 1119) (out= 558)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/Message.class(in = 9834) (out= 2787)(deflated 71%)
+  adding: gov/nasa/gsfc/gmsec/api/MessageFieldIterator$Selector.class(in = 1223) (out= 573)(deflated 53%)
+  adding: gov/nasa/gsfc/gmsec/api/MessageFieldIterator.class(in = 1115) (out= 526)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/ConnectionManager.class(in = 13950) (out= 3897)(deflated 72%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/ConnectionManagerCallback.class(in = 1184) (out= 481)(deflated 59%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/ConnectionManagerEventCallback.class(in = 1418) (out= 537)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/ConnectionManagerReplyCallback.class(in = 1298) (out= 487)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/Device$DeviceStatus.class(in = 1261) (out= 629)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/Device.class(in = 4928) (out= 1765)(deflated 64%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/DeviceIterator.class(in = 1002) (out= 486)(deflated 51%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/DeviceMessage.class(in = 3266) (out= 1342)(deflated 58%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/DeviceParam.class(in = 1785) (out= 821)(deflated 54%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/gmsecMIST$ResponseStatus.class(in = 1798) (out= 919)(deflated 48%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/gmsecMIST.class(in = 466) (out= 310)(deflated 33%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/message/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/message/DeviceMessage.class(in = 3516) (out= 1250)(deflated 64%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/message/MistMessage.class(in = 3391) (out= 1303)(deflated 61%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/message/MnemonicMessage.class(in = 3339) (out= 1239)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/message/ProductFileMessage.class(in = 5144) (out= 1671)(deflated 67%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/Mnemonic.class(in = 2774) (out= 1198)(deflated 56%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/MnemonicIterator.class(in = 1018) (out= 489)(deflated 51%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/MnemonicMessage.class(in = 3709) (out= 1491)(deflated 59%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/MnemonicSample$LimitFlag.class(in = 1384) (out= 681)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/MnemonicSample.class(in = 3779) (out= 1447)(deflated 61%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/ProductFile.class(in = 2853) (out= 1155)(deflated 59%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/ProductFileIterator.class(in = 1042) (out= 493)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/ProductFileMessage.class(in = 4699) (out= 1665)(deflated 64%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/SchemaIDIterator.class(in = 1027) (out= 505)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/ServiceParam.class(in = 1596) (out= 759)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/Specification.class(in = 2407) (out= 1020)(deflated 57%)
+  adding: gov/nasa/gsfc/gmsec/api/mist/SubscriptionInfo.class(in = 957) (out= 451)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsec/api/ReplyCallback.class(in = 1091) (out= 465)(deflated 57%)
+  adding: gov/nasa/gsfc/gmsec/api/Status.class(in = 2586) (out= 1106)(deflated 57%)
+  adding: gov/nasa/gsfc/gmsec/api/StatusClassification.class(in = 2275) (out= 1168)(deflated 48%)
+  adding: gov/nasa/gsfc/gmsec/api/StatusCode.class(in = 6396) (out= 3248)(deflated 49%)
+  adding: gov/nasa/gsfc/gmsec/api/SubscriptionInfo.class(in = 877) (out= 430)(deflated 50%)
+  adding: gov/nasa/gsfc/gmsec/api/U16.class(in = 1121) (out= 657)(deflated 41%)
+  adding: gov/nasa/gsfc/gmsec/api/U32.class(in = 1133) (out= 672)(deflated 40%)
+  adding: gov/nasa/gsfc/gmsec/api/U64.class(in = 1673) (out= 890)(deflated 46%)
+  adding: gov/nasa/gsfc/gmsec/api/U8.class(in = 1117) (out= 658)(deflated 41%)
+  adding: gov/nasa/gsfc/gmsec/api/util/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsec/api/util/Log.class(in = 1825) (out= 730)(deflated 60%)
+  adding: gov/nasa/gsfc/gmsec/api/util/LogEntry.class(in = 422) (out= 277)(deflated 34%)
+  adding: gov/nasa/gsfc/gmsec/api/util/LogHandler.class(in = 689) (out= 368)(deflated 46%)
+  adding: gov/nasa/gsfc/gmsec/api/util/LogLevel.class(in = 1774) (out= 959)(deflated 45%)
+  adding: gov/nasa/gsfc/gmsec/api/util/LogLevelGMSEC.class(in = 1814) (out= 963)(deflated 46%)
+  adding: gov/nasa/gsfc/gmsec/api/util/SystemValidator.class(in = 492) (out= 328)(deflated 33%)
+  adding: gov/nasa/gsfc/gmsec/api/util/TimeSpec.class(in = 776) (out= 481)(deflated 38%)
+  adding: gov/nasa/gsfc/gmsec/api/util/TimeUtil.class(in = 863) (out= 491)(deflated 43%)
+  adding: gov/nasa/gsfc/gmsecapi/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsecapi/ApiVersion.class(in = 765) (out= 471)(deflated 38%)
+  adding: gov/nasa/gsfc/gmsecapi/Callback.class(in = 297) (out= 201)(deflated 32%)
+  adding: gov/nasa/gsfc/gmsecapi/Config.class(in = 3568) (out= 1536)(deflated 56%)
+  adding: gov/nasa/gsfc/gmsecapi/ConfigFile.class(in = 3221) (out= 1211)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsecapi/Connection.class(in = 5016) (out= 1549)(deflated 69%)
+  adding: gov/nasa/gsfc/gmsecapi/ConnectionFactory.class(in = 1084) (out= 554)(deflated 48%)
+  adding: gov/nasa/gsfc/gmsecapi/ErrorCallback.class(in = 336) (out= 214)(deflated 36%)
+  adding: gov/nasa/gsfc/gmsecapi/Field.class(in = 18390) (out= 6850)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsecapi/gmsecAPI.class(in = 5354) (out= 1896)(deflated 64%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_Bin.class(in = 1532) (out= 894)(deflated 41%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_Bool.class(in = 655) (out= 422)(deflated 35%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_Char.class(in = 763) (out= 459)(deflated 39%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_Double.class(in = 550) (out= 345)(deflated 37%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_F32.class(in = 877) (out= 496)(deflated 43%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_F64.class(in = 877) (out= 500)(deflated 42%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_Float.class(in = 547) (out= 345)(deflated 36%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_I16.class(in = 877) (out= 500)(deflated 42%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_I32.class(in = 877) (out= 497)(deflated 43%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_I64.class(in = 877) (out= 501)(deflated 42%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_I8.class(in = 815) (out= 485)(deflated 40%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_Long.class(in = 544) (out= 344)(deflated 36%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_Short.class(in = 547) (out= 347)(deflated 36%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_String.class(in = 738) (out= 401)(deflated 45%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_U16.class(in = 877) (out= 498)(deflated 43%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_U32.class(in = 877) (out= 500)(deflated 42%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_U8.class(in = 905) (out= 550)(deflated 39%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_ULong.class(in = 547) (out= 346)(deflated 36%)
+  adding: gov/nasa/gsfc/gmsecapi/GMSEC_UShort.class(in = 550) (out= 348)(deflated 36%)
+  adding: gov/nasa/gsfc/gmsecapi/internal/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsecapi/internal/CallbackLookup.class(in = 3555) (out= 1853)(deflated 47%)
+  adding: gov/nasa/gsfc/gmsecapi/internal/MessageImpl.class(in = 1728) (out= 610)(deflated 64%)
+  adding: gov/nasa/gsfc/gmsecapi/internal/StatusException.class(in = 514) (out= 318)(deflated 38%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/gmsecJNI.class(in = 16285) (out= 3607)(deflated 77%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/JNIConfig.class(in = 3654) (out= 1361)(deflated 62%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/JNIConfigFile.class(in = 5275) (out= 1666)(deflated 68%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/JNIConnection.class(in = 9152) (out= 3115)(deflated 65%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/JNIConnectionFactory.class(in = 2334) (out= 1075)(deflated 53%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/JNIConnectionManager.class(in = 12089) (out= 3693)(deflated 69%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/JNIField.class(in = 13350) (out= 3168)(deflated 76%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/JNILog.class(in = 2066) (out= 988)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/JNIMessage.class(in = 6124) (out= 1998)(deflated 67%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/JNIStatus.class(in = 2829) (out= 1163)(deflated 58%)
+  adding: gov/nasa/gsfc/gmsecapi/jni/JNITimeUtil.class(in = 380) (out= 261)(deflated 31%)
+  adding: gov/nasa/gsfc/gmsecapi/Log$1.class(in = 509) (out= 326)(deflated 35%)
+  adding: gov/nasa/gsfc/gmsecapi/Log.class(in = 3651) (out= 1946)(deflated 46%)
+  adding: gov/nasa/gsfc/gmsecapi/Message.class(in = 8351) (out= 3412)(deflated 59%)
+  adding: gov/nasa/gsfc/gmsecapi/mist/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsecapi/mist/ConnectionManager.class(in = 8536) (out= 2549)(deflated 70%)
+  adding: gov/nasa/gsfc/gmsecapi/mist/ConnectionManagerCallback.class(in = 348) (out= 216)(deflated 37%)
+  adding: gov/nasa/gsfc/gmsecapi/mist/ConnectionManagerErrorCallback.class(in = 387) (out= 225)(deflated 41%)
+  adding: gov/nasa/gsfc/gmsecapi/mist/ConnectionManagerReplyCallback.class(in = 454) (out= 236)(deflated 48%)
+  adding: gov/nasa/gsfc/gmsecapi/ReplyCallback.class(in = 381) (out= 225)(deflated 40%)
+  adding: gov/nasa/gsfc/gmsecapi/Status.class(in = 2125) (out= 1015)(deflated 52%)
+  adding: gov/nasa/gsfc/gmsecapi/util/(in = 0) (out= 0)(stored 0%)
+  adding: gov/nasa/gsfc/gmsecapi/util/Log.class(in = 1562) (out= 721)(deflated 53%)
+  adding: gov/nasa/gsfc/gmsecapi/util/LogEntry.class(in = 384) (out= 282)(deflated 26%)
+  adding: gov/nasa/gsfc/gmsecapi/util/LogHandler.class(in = 277) (out= 204)(deflated 26%)
+  adding: gov/nasa/gsfc/gmsecapi/util/LogLevel.class(in = 528) (out= 350)(deflated 33%)
+  adding: gov/nasa/gsfc/gmsecapi/util/LogLevelGMSEC.class(in = 538) (out= 353)(deflated 34%)
+  adding: gov/nasa/gsfc/gmsecapi/util/SystemValidator.class(in = 491) (out= 327)(deflated 33%)
+  adding: gov/nasa/gsfc/gmsecapi/util/TimeUtil.class(in = 438) (out= 298)(deflated 31%)
+  	javah -force -classpath classes -o src\gmsecJNI.h gov.nasa.gsfc.gmsecapi.jni.gmsecJNI
+  	javah -force -classpath classes -o src_4x\gmsecJNI.h gov.nasa.gsfc.gmsec.api.jni.gmsecJNI

@@ -1,0 +1,35 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: The property "WindowsTargetPlatformVersion" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)".
+  gmsec_mb.cpp
+  MBConnection.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbconnection.cpp(315): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbconnection.cpp(344): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbconnection.cpp(372): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  MBReaderThread.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbreaderthread.cpp(153): warning C4101: 'e': unreferenced local variable
+  MBWire.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbwire.cpp(122): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbwire.cpp(136): warning C4267: '+=': conversion from 'size_t' to 'GMSEC_I32', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbwire.cpp(188): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\mbwire.cpp(198): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  TCPSocket.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(114): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'gmsec_messagebus::TCPSocket::Socket'
+  c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(114): note: consider using '%lld' in the format string
+  c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(114): note: consider using '%Id' in the format string
+  c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(114): note: consider using '%I64d' in the format string
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(216): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(239): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(181): note: see declaration of 'strerror'
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocket.cpp(266): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(181): note: see declaration of 'strerror'
+  TCPSocketClient.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocketclient.cpp(97): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  TCPSocketClientArray.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocketclientarray.cpp(220): warning C4244: 'argument': conversion from 'gmsec_messagebus::TCPSocket::Socket' to 'int', possible loss of data
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocketclientarray.cpp(453): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  TCPSocketClientReconnector.cpp
+c:\users\jmcowan\dev\gmsec_api\wrapper\mb\src\tcpsocketclientreconnector.cpp(157): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1205,5): warning MSB8012: TargetPath(C:\Users\jmcowan\Dev\GMSEC_API\wrapper\mb\x64\Release\mb.dll) does not match the Linker's OutputFile property value (C:\Users\jmcowan\Dev\GMSEC_API\bin\gmsec_mb.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1207,5): warning MSB8012: TargetName(mb) does not match the Linker's OutputFile property value (gmsec_mb). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\Release/gmsec_mb.lib and object .\Release/gmsec_mb.exp
+  mb.vcxproj -> C:\Users\jmcowan\Dev\GMSEC_API\wrapper\mb\x64\Release\mb.dll
