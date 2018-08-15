@@ -85,7 +85,7 @@ typedef signed char GMSEC_I8;
 typedef unsigned char GMSEC_U8;
 #define GMSEC_USING_UCHAR 1
 
-
+//Commented out here
 /*#if GMSEC_S16IL32LL64
 	typedef signed short   GMSEC_I16;
 	typedef unsigned short GMSEC_U16;
@@ -128,6 +128,8 @@ typedef unsigned char GMSEC_U8;
 	#define GMSEC_USING_LONG_LONG 1
 
 #else*/
+//To here
+
 	/* determine sizes from limits.h macros */
 
 	/* Prefer short for GMSEC_I16 for backward-compatibility, then int */
@@ -197,6 +199,7 @@ typedef unsigned char GMSEC_U8;
 		#error Unsupported platform: missing type for GMSEC_I64
 	#endif /* !defined(GMSEC_USING_LONG) && ... */
 
+//Commented out this line also (compatibility with UE 4.20.1)
 //#endif /* !defined(GMSEC_S16I32L64) */
 
 
@@ -262,6 +265,7 @@ typedef GMSEC_F64 GMSEC_DOUBLE;
 /**@}*/
 
 
+//Renamed to LogLevelGMSEC, along with anywhere referenced in project
 /**
  * @enum LogLevelGMSEC
  *  @brief Logging level identifiers

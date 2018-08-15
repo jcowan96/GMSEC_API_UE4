@@ -5,7 +5,7 @@
  * All Rights Reserved.
  */
 
-
+//Renamed to LogLevelGMSEC, along with anywhere referenced in project
 /**
  * @file LogLevelGMSEC.java
  *
@@ -15,7 +15,7 @@
 package gov.nasa.gsfc.gmsec.api.util;
 
 
-/** 
+/**
  * @enum LogLevelGMSEC
  * @brief Log level definitions
  */

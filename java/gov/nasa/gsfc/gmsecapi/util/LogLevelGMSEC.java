@@ -13,6 +13,7 @@
 
 package gov.nasa.gsfc.gmsecapi.util;
 
+//Renamed to LogLevelGMSEC, along with anywhere referenced in project
 /**
  * @class LogLevelGMSEC
  * @deprecated API 3.x has been deprecated; use API 4.x instead.

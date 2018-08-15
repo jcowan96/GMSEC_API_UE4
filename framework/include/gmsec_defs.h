@@ -520,6 +520,7 @@ typedef GMSEC_U16 GMSEC_MSG_KIND;
  * @{
  */
 
+//Renamed to LogLevelGMSEC, along with anywhere referenced in project
 /** @enum LogLevelGMSEC
  *  @brief Logging level identifiers
  */
@@ -532,7 +533,7 @@ enum LogLevelGMSEC
 	logINFO,      /**< Info level logging */
 	logVERBOSE,   /**< Verbose level logging */
 	logDEBUG,     /**< Debug level logging */
-	logNLEVEL     
+	logNLEVEL
 };
 
 
