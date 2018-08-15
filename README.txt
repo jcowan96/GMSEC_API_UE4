@@ -1,4 +1,13 @@
-﻿This GMSEC API README file contains technical notes and the change summary
+This is a pre-built version of the GMSEC API for Windows 10 x64, with some minor source changes to make it compatible with Unreal Engine 4.20.1.
+
+-The C++ enum/Java class "LogLevel" has been renamed to "LogLevelGMSEC" to avoid conflicting with an enum in Unreal Engine
+-Lines 89-130, as well as line 203, have been commented out in framework/include/gmsec4_defs.h. This is to avoid compiler errors based on undefined preprocessor macros in Unreal Engine 4.20.1. 
+	-https://docs.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-4-c4668
+
+
+
+
+This GMSEC API README file contains technical notes and the change summary
 for the current release and historical releases.
 
 See the associated Version Description Document (VDD) for further details
